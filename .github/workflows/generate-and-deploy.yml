@@ -2,8 +2,10 @@ name: Push Generated Bucket and Deploy
 
 on:
   push:
-  create:
-  repository_dispatch:
+    branches:
+      - main
+  workflow_dispatch:
+
 
 env:
   NODE_VERSION: "22.18.0"
