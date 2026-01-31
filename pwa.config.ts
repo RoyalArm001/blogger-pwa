@@ -6,7 +6,7 @@ export default {
   shortName: 'Jermuk',
   description: 'Official travel guide of Jermuk, Armenia',
   direction: 'auto',
-  language: 'hy-AM',
+  language: 'en-US',
   backgroundColor: '#ffffff',
   themeColor: '#0ea5e9',
   display: 'standalone',
