@@ -50,7 +50,7 @@ if ('serviceWorker' in navigator) {
       if (registration?.active?.scriptURL) {
         logs.push([`Script:  ${registration.active.scriptURL}`]);
       }
-      logs.push(['Build by: Sipan Danielyan (https://jermuktrave.com)']);
+      logs.push(['Build by: Sipan Danielyan (https://www.jermuktravel.com)']);
 
       groupLog(['%c[sw] Registered successfully', 'color: green'], logs);
     })
